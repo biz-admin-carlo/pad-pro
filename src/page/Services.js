@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import { siteConfig } from '../config.js';
-import SectionB from '../components/ServicesSectionB.js';
+import SectionA from '../components/ServicesSectionA.js';
 import Header from '../components/Header.js';
 import { PreFooter } from '../components/PreFooter';
 import VirtualProgramming from '../components/VirtualProgramming.js';
@@ -14,7 +14,7 @@ export default function ServicePage() {
       </Helmet>
 
       <Header config={siteConfig} />
-        <SectionB />  
+        <SectionA />  
         <VirtualProgramming />
       <PreFooter />
     </>
