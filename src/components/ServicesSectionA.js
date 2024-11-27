@@ -4,7 +4,7 @@ import '../assets/styles.css';
 import { Typography } from "@material-tailwind/react";
 
 export default function ServicesSectionA() {
-  const imageURL = "../assets/pad-pro-image-1.jpg";
+  const imageURL = "../assets/padpro_image_1.jpg";
   const [isModalOpen, setModalOpen] = useState(false);
 
   const activities = [
