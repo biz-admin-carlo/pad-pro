@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ImageModal from "./ImageModal";
 import "../assets/styles.css";
+import AboutUsImageOne from '../assets/pad-pro-image-3.jpg'
+import AboutUsImageTwo from '../assets/pad-pro-image-4.jpg'
 
 export default function AboutUsSectionB() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -64,11 +66,11 @@ export default function AboutUsSectionB() {
                 <div className="w-full md:w-1/2">
                   <img
                     className="h-96 w-full object-cover object-center"
-                    src="http://www.padpro.net/uploads/4/4/7/2/4472992/published/padpro1.jpg?1693808333"
+                    src={AboutUsImageOne}
                     alt="Self-Help Advocacy Image 1"
                     onClick={() =>
                       openModalWithImage(
-                        "http://www.padpro.net/uploads/4/4/7/2/4472992/published/padpro1.jpg?1693808333"
+                        {AboutUsImageOne}
                       )
                     }
                   />
@@ -104,11 +106,11 @@ export default function AboutUsSectionB() {
                 <div className="w-full md:w-1/2">
                   <img
                     className="h-96 w-full object-cover object-center"
-                    src="http://www.padpro.net/uploads/4/4/7/2/4472992/editor/padpro3.jpg?1693808387"
+                    src={AboutUsImageTwo}
                     alt="Self-Help Advocacy Image 2"
                     onClick={() =>
                       openModalWithImage(
-                        "http://www.padpro.net/uploads/4/4/7/2/4472992/editor/padpro3.jpg?1693808387"
+                        {AboutUsImageTwo}
                       )
                     }
                   />

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ImageModal from './ImageModal';
 import '../assets/styles.css';
 import { Typography } from "@material-tailwind/react";
-import ServiceSectionImage from '../assets/padpro_image_1.jpg';
+import ServiceSectionImage from '../assets/pad-pro-image-1.jpg';
 
 export default function ServicesSectionA() {
   const [isModalOpen, setModalOpen] = useState(false);

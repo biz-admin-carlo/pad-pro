@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import ImageModal from "./ImageModal";
 import "../assets/styles.css";
+import OurTeamImageOne from '../assets/pad-pro-image-2.jpg';
+import OurTeamImageTwo from '../assets/pad-pro-image-3.jpg'
+import OurTeamImageThree from '../assets/pad-pro-image-4.jpg'
+
 
 export default function OurTeamSectionA() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -25,11 +29,11 @@ export default function OurTeamSectionA() {
               <figure className="relative h-96 w-full my-8">
                 <img
                   className="h-full w-full rounded-xl object-cover object-center"
-                  src="http://www.padpro.net/uploads/4/4/7/2/4472992/published/dsc00060.jpg?1694582587"
+                  src={OurTeamImageOne}
                   alt="Piedmont Adult Day Program Staff"
                   onClick={() =>
                     openModalWithImage(
-                      "http://www.padpro.net/uploads/4/4/7/2/4472992/published/dsc00060.jpg?1694582587"
+                      {OurTeamImageOne}
                     )
                   }
                 />
@@ -55,11 +59,11 @@ export default function OurTeamSectionA() {
                 <div className="w-full md:w-1/2">
                   <img
                     className="h-96 w-full object-cover object-center"
-                    src="http://www.padpro.net/uploads/4/4/7/2/4472992/published/padpro1.jpg?1693808333"
+                    src={OurTeamImageTwo}
                     alt="nature image"
                     onClick={() =>
                       openModalWithImage(
-                        "http://www.padpro.net/uploads/4/4/7/2/4472992/published/padpro1.jpg?1693808333"
+                        {OurTeamImageTwo}
                       )
                     }
                   />
@@ -98,11 +102,11 @@ export default function OurTeamSectionA() {
                 <div className="w-full md:w-1/2">
                   <img
                     className="h-96 w-full object-cover object-center"
-                    src="http://www.padpro.net/uploads/4/4/7/2/4472992/editor/padpro3.jpg?1693808387"
+                    src={OurTeamImageThree}
                     alt="nature image"
                     onClick={() =>
                       openModalWithImage(
-                        "http://www.padpro.net/uploads/4/4/7/2/4472992/editor/padpro3.jpg?1693808387"
+                        {OurTeamImageThree}
                       )
                     }
                   />
@@ -118,8 +122,8 @@ export default function OurTeamSectionA() {
       <ImageModal
         isOpen={isModalOpen}
         onClose={() => setModalOpen(false)}
-        imgSrc={modalImgSrc} // Pass the dynamic image source
-        alt="Modal Image"
+        imgSrc={modalImgSrc} 
+        alt="PadPro Our Team Image"
       />
     </div>
   );

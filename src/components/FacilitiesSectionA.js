@@ -1,71 +1,86 @@
 import React, { useState } from "react";
 import ImageModal from "./ImageModal";
-
+import FacilitiesImageOne from '../assets/pad-pro-image-facilities-1.jpg';
+import FacilitiesImageTwo from '../assets/pad-pro-image-facilities-2.jpg';
+import FacilitiesImageThree from '../assets/pad-pro-image-facilities-3.jpg';
+import FacilitiesImageFour from '../assets/pad-pro-image-facilities-4.jpg';
+import FacilitiesImageFive from '../assets/pad-pro-image-facilities-5.jpg';
+import FacilitiesImageSix from '../assets/pad-pro-image-facilities-6.jpg';
+import FacilitiesImageSeven from '../assets/pad-pro-image-facilities-7.jpg';
+import FacilitiesImageEight from '../assets/pad-pro-image-facilities-8.jpg';
+import FacilitiesImageNine from '../assets/pad-pro-image-facilities-9.jpg';
+import FacilitiesImageTen from '../assets/pad-pro-image-facilities-10.jpg';
+import FacilitiesImageEleven from '../assets/pad-pro-image-facilities-11.jpg';
+import FacilitiesImageTwelve from '../assets/pad-pro-image-facilities-12.jpg';
+import FacilitiesImageThirteen from '../assets/pad-pro-image-facilities-13.jpg';
+import FacilitiesImageFourteen from '../assets/pad-pro-image-facilities-14.jpg';
+import FacilitiesImageOneFive from '../assets/pad-pro-image-facilities-15.jpg';
+import FacilitiesImageOneSix from '../assets/pad-pro-image-facilities-16.jpg';
 export default function FacilitiesSectionA() {
   const data = [
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility11_orig.jpg",
-      alt: "Image of PadPro's Facility 1",
+      imgelink: FacilitiesImageOne,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility8_orig.jpg",
-      alt: "Image of PadPro's Facility 2",
+      imgelink: FacilitiesImageTwo,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility2_orig.jpg",
-      alt: "Image of PadPro's Facility 3",
+      imgelink: FacilitiesImageThree,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility3_orig.jpg",
-      alt: "Image of PadPro's Facility 4",
+      imgelink: FacilitiesImageFour,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility4_orig.jpg",
-      alt: "Image of PadPro's Facility 5",
+      imgelink: FacilitiesImageFive,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility5_orig.jpg",
-      alt: "Image of PadPro's Facility 6",
+      imgelink: FacilitiesImageSix,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility6_orig.jpg",
-      alt: "Image of PadPro's Facility 7",
+      imgelink: FacilitiesImageSeven,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility7_orig.jpg",
-      alt: "Image of PadPro's Facility 8",
+      imgelink: FacilitiesImageEight,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility8_orig.jpg",
-      alt: "Image of PadPro's Facility 9",
+      imgelink: FacilitiesImageNine,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility9_orig.jpg",
-      alt: "Image of PadPro's Facility 10",
+      imgelink: FacilitiesImageTen,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility10_orig.jpg",
-      alt: "Image of PadPro's Facility 11",
+      imgelink: FacilitiesImageEleven,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility12_orig.jpg",
-      alt: "Image of PadPro's Facility 12",
+      imgelink: FacilitiesImageTwelve,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility13_orig.jpg",
-      alt: "Image of PadPro's Facility 13",
+      imgelink: FacilitiesImageThirteen,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility14_orig.jpg",
-      alt: "Image of PadPro's Facility 14",
+      imgelink: FacilitiesImageFourteen,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility15_orig.jpg",
-      alt: "Image of PadPro's Facility 15",
+      imgelink: FacilitiesImageOneFive,
+      alt: "PadPro's Facility",
     },
     {
-      imgelink: "http://www.padpro.net/uploads/4/4/7/2/4472992/padprofacility16_orig.jpg",
-      alt: "Image of PadPro's Facility 16",
+      imgelink: FacilitiesImageOneSix,
+      alt: "PadPro's Facility",
     },
   ];
 
