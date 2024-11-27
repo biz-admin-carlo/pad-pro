@@ -1,0 +1,32 @@
+{
+  "short_name": "PadPro",
+  "name": "Piedmont Adult Day Program",
+  "icons": [
+    {
+      "src": "./pad-pro-icon.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./pad-pro-icon.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./pad-pro-icon.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Piedmont Adult Day Program (PadPro) in San Jose, CA, provides skill-building and behavior management programs to empower adults for a better quality of life.",
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://mybizsolutions.us/"
+    }
+  ]
+}

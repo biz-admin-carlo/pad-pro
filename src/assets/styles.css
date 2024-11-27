@@ -1,0 +1,96 @@
+.newsreader-font {
+    font-family: 'Newsreader', serif;
+    font-size: large;
+    color:#6ece1b;
+}
+
+::selection {
+    background-color: #a3d977; /* Light green background */
+    color: #000; /* Black text */
+  }
+
+.newsreader {
+    font-family: 'Newsreader', serif;
+}
+
+.font-large {
+    font-size: 3rem;
+}
+
+.newsreader-font-medium {
+    font-family: 'Newsreader', serif;
+    font-size: medium;
+    color:#6ece1b;
+}
+
+.text-highlight {
+    font-weight: bold; /* Make the text bold */
+    text-decoration: underline; /* Underline the text */
+    text-underline-offset: 6px; /* Add spacing between the text and the underline */
+    color: inherit; /* Keep the original color by default */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.text-highlight:hover {
+    color: #6ece1b; /* Change color to green on hover */
+    cursor: pointer;
+}
+
+.blur-video {
+    filter: blur(12px); /* Adjust the blur value as needed */
+    -webkit-filter: blur(12px); /* For Safari */
+  }
+  
+.blur-video {
+    filter: blur(12px) brightness(0.5);
+}
+
+  
+.font-small {
+    font-size: small;
+}
+
+.button-contact {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #426B1F; 
+    color: white; 
+    transition: background-color 0.3s ease;
+}
+  
+.button-contact:hover {
+    background-color: #385B1A;
+}
+
+.font-sectionA {
+    font-family: 'Newsreader', serif;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.italics-sectionA {
+    font-style: italic;
+    color: #6ece1b;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1; /* Keep it behind content */
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .bg-opacity-75 {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
