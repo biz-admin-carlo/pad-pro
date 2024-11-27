@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import ImageModal from './ImageModal';
 import '../assets/styles.css';
 import { Typography } from "@material-tailwind/react";
+import ServiceSectionImage from '../assets/padpro_image_1.jpg';
 
 export default function ServicesSectionA() {
-  const imageURL = "../assets/padpro_image_1.jpg";
   const [isModalOpen, setModalOpen] = useState(false);
 
   const activities = [
@@ -58,7 +58,7 @@ export default function ServicesSectionA() {
             <figure>
                 <img
                     className="h-96 w-full rounded-lg object-cover object-center"
-                    src={imageURL}
+                    src={ServiceSectionImage}
                     alt="Services Available for Piedmont Adult Day Program"
                     onClick={() => setModalOpen(true)}
                 />
@@ -74,7 +74,7 @@ export default function ServicesSectionA() {
       <ImageModal 
         isOpen={isModalOpen} 
         onClose={() => setModalOpen(false)} 
-        imgSrc={imageURL}
+        imgSrc={ServiceSectionImage}
         alt="Services in Piedmont Adult Day Program"
       />
     </div>
