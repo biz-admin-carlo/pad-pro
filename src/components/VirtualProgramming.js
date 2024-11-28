@@ -9,17 +9,17 @@ import {
 
 export default function VirtualProgramming() {
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className={`overflow-hidden bg-white py-12 sm:py-36`}>
-        <div className='text-start py-6 mx-10'>
-            <h1 className='newsreader font-large pb-2' >Virtual Programming</h1>
+        <div className='text-start py-6 mx-10' data-aos="fade-up" data-aos-duration="2000">
+            <h1 className='newsreader font-large pb-2' data-aos="fade-up" data-aos-duration="2000">Virtual Programming</h1>
             <hr/>
-            <p className='py-6'>Piedmont Adult Day Program's Virtual Programming started last 15 April 2022. This program aims to bridge the other online learning modality so that it can reach broader students and better the learning experience of everyone.</p>
+            <p className='py-6' data-aos="fade-up" data-aos-duration="2000">Piedmont Adult Day Program's Virtual Programming started last 15 April 2022. This program aims to bridge the other online learning modality so that it can reach broader students and better the learning experience of everyone.</p>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {/* First Card */}
-            <Card className="w-full max-w-sm">
+            <Card className="w-full max-w-sm" data-aos="fade-up" data-aos-duration="2000">
               <CardHeader shadow={false} floated={false} className="h-56">
                 <iframe
                   width="100%"
@@ -39,7 +39,7 @@ export default function VirtualProgramming() {
             </Card>
 
             {/* Second Card */}
-            <Card className="w-full max-w-sm">
+            <Card className="w-full max-w-sm" data-aos="fade-up" data-aos-duration="2000">
               <CardHeader shadow={false} floated={false} className="h-56">
                 <iframe
                   width="100%"
@@ -59,7 +59,7 @@ export default function VirtualProgramming() {
             </Card>
 
             {/* Third Card */}
-            <Card className="w-full max-w-sm">
+            <Card className="w-full max-w-sm" data-aos="fade-up" data-aos-duration="2000">
               <CardHeader shadow={false} floated={false} className="h-56">
                 <iframe
                   width="100%"
