@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import ImageModal from "./ImageModal";
 import "../assets/styles.css";
 import OurTeamImageOne from '../assets/pad-pro-image-2.jpg';
-import OurTeamImageTwo from '../assets/pad-pro-image-3.jpg'
-import OurTeamImageThree from '../assets/pad-pro-image-4.jpg'
-
+import OurTeamImageTwo from '../assets/pad-pro-image-3.jpg';
+import OurTeamImageThree from '../assets/pad-pro-image-4.jpg';
 
 export default function OurTeamSectionA() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -19,28 +18,36 @@ export default function OurTeamSectionA() {
     <div>
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="lg:max-w-2xl mx-auto" >
-            <h2 className="text-base font-semibold leading-7 text-green-500" data-aos="fade-up" data-aos-duration="2000">
+          <div className="lg:max-w-2xl mx-auto">
+            <h2
+              className="text-base font-semibold leading-7 text-green-500"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               Our Team
             </h2>
             <hr />
 
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-16">
-              <figure className="relative h-96 w-full my-8" data-aos="fade-up" data-aos-duration="2000">
+              <figure
+                className="relative w-full my-8"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <img
-                  className="h-full w-full rounded-xl object-cover object-center"
+                  className="w-full rounded-xl sm:h-96 sm:object-cover sm:object-center"
                   src={OurTeamImageOne}
                   alt="Piedmont Adult Day Program Staff"
-                  onClick={() =>
-                    openModalWithImage(
-                      {OurTeamImageOne}
-                    )
-                  }
+                  onClick={() => openModalWithImage(OurTeamImageOne)}
                 />
               </figure>
               <hr />
 
-              <div className="w-full pt-10" data-aos="fade-up" data-aos-duration="2000">
+              <div
+                className="w-full pt-10"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <p className="text-gray-900 text-center">
                   <span className="newsreader font-large leading-7">In</span>{" "}
                   line with our Mission Statement of "enhancing the quality of
@@ -56,19 +63,23 @@ export default function OurTeamSectionA() {
               </div>
 
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
-                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
+                <div
+                  className="w-full md:w-1/2"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <img
-                    className="h-96 w-full object-cover object-center"
+                    className="w-full rounded-xl sm:h-96 sm:object-cover sm:object-center"
                     src={OurTeamImageTwo}
-                    alt="nature image"
-                    onClick={() =>
-                      openModalWithImage(
-                        {OurTeamImageTwo}
-                      )
-                    }
+                    alt="Nature Image"
+                    onClick={() => openModalWithImage(OurTeamImageTwo)}
                   />
                 </div>
-                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
+                <div
+                  className="w-full md:w-1/2"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <p className="text-gray-900 text-end">
                     The program provides orientation training within the first
                     40 hours of employment on facility program design,
@@ -87,28 +98,32 @@ export default function OurTeamSectionA() {
               <hr />
 
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
-                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
+                <div
+                  className="w-full md:w-1/2"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <p className="text-gray-900">
                     <span className="text-highlight">
                       Staffing ratio to individuals is 1:3
                     </span>
-                    , and are required to have completed / updated FIRST AID
+                    , and are required to have completed/updated FIRST AID
                     AND CPR certificates and health screening. PADPro takes
                     pride and values its workforce and hands out awards for
                     outstanding performances, innovation, creativity, and 10 or
                     15 years loyalty.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
+                <div
+                  className="w-full md:w-1/2"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
                   <img
-                    className="h-96 w-full object-cover object-center"
+                    className="w-full rounded-xl sm:h-96 sm:object-cover sm:object-center"
                     src={OurTeamImageThree}
-                    alt="nature image"
-                    onClick={() =>
-                      openModalWithImage(
-                        {OurTeamImageThree}
-                      )
-                    }
+                    alt="Nature Image"
+                    onClick={() => openModalWithImage(OurTeamImageThree)}
                   />
                 </div>
               </div>
@@ -122,7 +137,7 @@ export default function OurTeamSectionA() {
       <ImageModal
         isOpen={isModalOpen}
         onClose={() => setModalOpen(false)}
-        imgSrc={modalImgSrc} 
+        imgSrc={modalImgSrc}
         alt="PadPro Our Team Image"
       />
     </div>
