@@ -9,6 +9,8 @@ import {
 } from "@heroicons/react/24/outline";
 import { Menu, MenuHandler, MenuList, MenuItem } from "@material-tailwind/react";
 import "../assets/styles.css";
+import icon from '../assets/pad-pro-icon.png';
+
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -53,9 +55,13 @@ const Header = () => {
         aria-label="Global"
       >
         {/* Business Name Section */}
-        <div className="flex lg:flex-1">
-          <Link to="/" className="ms-5 mt-5 newsreader-font">
-            Piedmont Adult Day Program
+        <div className="icon-container">
+          <Link to="/" className="newsreader-font">
+            <img
+              className="logo"
+              src={icon}
+              alt="Piedmont Adult Day Program icon"
+            />
           </Link>
         </div>
 
