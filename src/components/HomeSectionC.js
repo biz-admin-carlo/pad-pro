@@ -7,7 +7,7 @@ export default function HomeSectionC() {
     <div className="bg-white" data-aos="fade-up">
       <div className="bg-gray-100">
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-16">
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
             <div className="w-full md:w-1/2">
               <h1 className="lg:text-9xl md:text-7xl text-7xl tracking-tight newsreader text-black">
                 Self-Help Advocacy
@@ -21,7 +21,7 @@ export default function HomeSectionC() {
           </div>
           <hr/>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
             <div className="w-full md:w-1/2">
               <h1 className="text-2xl tracking-tight text-black">Responsive Programming</h1>
             </div>
@@ -35,7 +35,7 @@ export default function HomeSectionC() {
           </div>
           <hr/>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
             <div className="w-full md:w-1/2">
             <h1 className="text-2xl tracking-tight text-black">Communication of Behavior</h1>
             </div>
@@ -49,7 +49,7 @@ export default function HomeSectionC() {
           </div>
           <hr/>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
             <div className="w-full md:w-1/2">
               <h1 className="text-2xl tracking-tight text-black">Hands-on Experience</h1>
             </div>

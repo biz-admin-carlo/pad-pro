@@ -36,7 +36,7 @@ export default function ContactSectionB() {
   };
 
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" data-aos-duration="2000">
       <div className="overflow-hidden bg-white py-6 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {/* Mobile Filters */}

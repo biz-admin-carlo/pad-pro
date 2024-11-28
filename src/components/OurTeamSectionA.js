@@ -16,17 +16,17 @@ export default function OurTeamSectionA() {
   };
 
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="lg:max-w-2xl mx-auto">
-            <h2 className="text-base font-semibold leading-7 text-green-500">
+          <div className="lg:max-w-2xl mx-auto" >
+            <h2 className="text-base font-semibold leading-7 text-green-500" data-aos="fade-up" data-aos-duration="2000">
               Our Team
             </h2>
             <hr />
 
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-16">
-              <figure className="relative h-96 w-full my-8">
+              <figure className="relative h-96 w-full my-8" data-aos="fade-up" data-aos-duration="2000">
                 <img
                   className="h-full w-full rounded-xl object-cover object-center"
                   src={OurTeamImageOne}
@@ -40,7 +40,7 @@ export default function OurTeamSectionA() {
               </figure>
               <hr />
 
-              <div className="w-full pt-10">
+              <div className="w-full pt-10" data-aos="fade-up" data-aos-duration="2000">
                 <p className="text-gray-900 text-center">
                   <span className="newsreader font-large leading-7">In</span>{" "}
                   line with our Mission Statement of "enhancing the quality of
@@ -56,7 +56,7 @@ export default function OurTeamSectionA() {
               </div>
 
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <img
                     className="h-96 w-full object-cover object-center"
                     src={OurTeamImageTwo}
@@ -68,7 +68,7 @@ export default function OurTeamSectionA() {
                     }
                   />
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <p className="text-gray-900 text-end">
                     The program provides orientation training within the first
                     40 hours of employment on facility program design,
@@ -87,7 +87,7 @@ export default function OurTeamSectionA() {
               <hr />
 
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <p className="text-gray-900">
                     <span className="text-highlight">
                       Staffing ratio to individuals is 1:3
@@ -99,7 +99,7 @@ export default function OurTeamSectionA() {
                     15 years loyalty.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <img
                     className="h-96 w-full object-cover object-center"
                     src={OurTeamImageThree}

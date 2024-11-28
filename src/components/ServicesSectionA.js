@@ -32,11 +32,11 @@ export default function ServicesSectionA() {
   ];
 
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {/* Text Section */}
-          <div className="lg:max-w-2xl mx-auto">
+          <div className="lg:max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="2000">
             <h2 className="text-base font-semibold leading-7 text-green-500">
               Services
             </h2>
@@ -54,7 +54,7 @@ export default function ServicesSectionA() {
           </div>
 
           {/* Image Section */}
-          <div className="mt-12 flex justify-center">
+          <div className="mt-12 flex justify-center" data-aos="fade-up" data-aos-duration="2000">
             <figure>
                 <img
                     className="h-96 w-full rounded-lg object-cover object-center"

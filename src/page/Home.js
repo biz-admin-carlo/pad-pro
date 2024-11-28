@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { siteConfig } from '../config.js';
 import SectionA from '../components/HomeSectionA.js';
+import SectionB from '../components/HomeSectionB.js';
 import SectionC from '../components/HomeSectionC.js';
 import SectionD from '../components/HomeSectionD.js';
 import Header from '../components/Header.js';
@@ -16,6 +17,7 @@ export default function HomePage() {
 
       <Header config={siteConfig} />
         <SectionA />  
+        <SectionB />  
         <SectionC />
         <SectionD />
       <PreFooter />

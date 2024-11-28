@@ -70,7 +70,7 @@ export default function HomeSectionD() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value); // Toggle logic
 
   return (
-    <div data-aos="fade-up" className="bg-white">
+    <div data-aos="fade-up" data-aos-duration="3000" className="bg-white">
       <main className="mx-auto max-w-7xl px-4 sm:px-6 px-8 py-16">
         <h2 className="text-base font-semibold leading-7 text-green-500">
           Frequently Asked Questions

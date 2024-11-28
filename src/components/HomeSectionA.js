@@ -5,7 +5,7 @@ export default function HomeSectionA() {
 
   return (
 
-    <div data-aos="fade-up">
+    <div>
       <div className={`overflow-hidden bg-white py-3 sm:py-12`}>
         <video
           autoPlay
@@ -13,10 +13,11 @@ export default function HomeSectionA() {
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover filter blur-video"
+          data-aos="fade-up" data-aos-duration="1000"
         >
           <source src="https://www.shutterstock.com/shutterstock/videos/1107342867/preview/stock-footage-create-discussions-among-participants-to-support-exchange-of-views-european-education-combines.webm" type="video/mp4" />
         </video>
-        <div className=" max-w-6xl ps-6 lg:px-8">
+        <div className=" max-w-6xl ps-6 lg:px-8" data-aos="fade-up" data-aos-duration="2000">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-20">
             <div className="lg:pr-8">
               <div className="lg:max-w-lg">

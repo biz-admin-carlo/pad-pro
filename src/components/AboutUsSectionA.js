@@ -21,11 +21,11 @@ export default function AboutUsSectionB() {
   };
 
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {/* Text Section */}
-          <div className="lg:max-w-2xl mx-auto">
+          <div className="lg:max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="2000">
             <h2 className="text-base font-semibold leading-7 text-green-500">
               About Us
             </h2>
@@ -34,12 +34,12 @@ export default function AboutUsSectionB() {
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-16">
               {/* Self-Help Advocacy Section */}
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <h1 className="lg:text-9xl md:text-7xl text-7xl tracking-tight newsreader text-black">
                     Self-Help Advocacy
                   </h1>
                 </div>
-                <div className="w-full md:w-1/2">
+                <div className="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="2000">
                   <p className="text-gray-900">
                     PADPro’s Self-Help Advocacy through Responsive Programming
                     (S.H.A.R.P.) involves a combination of proactive, reactive,
@@ -62,7 +62,7 @@ export default function AboutUsSectionB() {
               </dl>
 
               {/* First Image and Description */}
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
                 <div className="w-full md:w-1/2">
                   <img
                     className="h-96 w-full object-cover object-center"
@@ -89,7 +89,7 @@ export default function AboutUsSectionB() {
               <hr />
 
               {/* Second Image and Description */}
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24">
+              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
                 <div className="w-full md:w-1/2">
                   <p className="text-gray-900">
                     On site activities are structured, and simulation of daily

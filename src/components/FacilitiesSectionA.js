@@ -94,12 +94,13 @@ export default function FacilitiesSectionA() {
 
   return (
     <div className="px-12 md:px-12">
-        <div className="pt-10">
+        <div className="py-10" data-aos="fade-up" data-aos-duration="1000">
             <h2 className="text-base font-semibold leading-7 text-green-500">
               Facilities
             </h2>
+            <hr/>
         </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" data-aos="fade-up" data-aos-duration="2000">
         {data.map(({ imgelink, alt }, index) => (
           <div key={index}>
             <img
@@ -113,7 +114,7 @@ export default function FacilitiesSectionA() {
       </div>
 
       {/* Facility Description */}
-      <div className="py-6">
+      <div className="py-6" data-aos="fade-up" data-aos-duration="2000">
         <hr className="my-4" />
         <p className="py-6">
           ​It has centralized air-conditioning/heater, sprinkler system, 5

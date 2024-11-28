@@ -8,16 +8,16 @@ import icon from '../assets/pad-pro-icon.png';
 
 export default function ContactSectionA() {
   return (
-    <div data-aos="fade-up">
+    <div>
       <div className="overflow-hidden bg-white py-6 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="text-base font-semibold leading-7 text-green-500">Contact</h2>
+            <h2 className="text-base font-semibold leading-7 text-green-500" data-aos="fade-right" data-aos-duration="2000">Contact</h2>
             <hr />
 
             <div className="pt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
               {/* Drop Us a Line Form */}
-              <div>
+              <div data-aos="fade-right" data-aos-duration="2000">
                 <Card color="transparent" shadow={false}>
                   <Typography variant="h4" color="blue-gray">
                     Drop us a line
@@ -69,7 +69,7 @@ export default function ContactSectionA() {
               </div>
 
               {/* Hours of Operation & Contact Info */}
-              <div>
+              <div data-aos="fade-right" data-aos-duration="2000">
                 <div>
                   <img
                     className=" object-cover object-center"
@@ -89,7 +89,7 @@ export default function ContactSectionA() {
                 </div>
 
                 <div className="mt-8">
-                  <Typography variant="h5" color="green-500" className="mb-4">
+                  <Typography variant="h5" color="green-500" className="my-4">
                     Contact Us
                   </Typography>
                   <Typography color="gray" className="mb-2">
@@ -98,24 +98,31 @@ export default function ContactSectionA() {
                   <Typography color="gray" className="mb-2">
                     Executive Director
                   </Typography>
-                  <Typography color="gray" className="mb-4">
-                    padproadult@yahoo.com
-                  </Typography>
 
-                  <Typography variant="h5" color="green-500" className="mb-4">
+                  <Typography variant="h5" color="green-500" className="my-4">
                     Email Us
                   </Typography>
                   <Typography color="gray" className="mb-4">
-                    padproadult@yahoo.com
+                    <a href="mailto:padproadult@yahoo.com">
+                      padproadult@yahoo.com
+                    </a>
                   </Typography>
+
 
                   <Typography variant="h5" color="green-500" className="mb-4">
                     Call Us
                   </Typography>
                   <Typography color="gray" className="mb-2">
-                    Tel #: (408) 347-0402
+                    <a href="tel:+14083470402">
+                      Tel #: (408) 347-0402
+                    </a>
                   </Typography>
-                  <Typography color="gray">Fax #: (408) 347-0403</Typography>
+                  <Typography color="gray">
+                    <a href="tel:+14083470403">
+                      Fax #: (408) 347-0403
+                    </a>
+                  </Typography>
+
                 </div>
               </div>
             </div>
