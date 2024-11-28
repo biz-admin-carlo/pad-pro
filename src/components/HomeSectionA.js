@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles.css';
+import stockFootage from '../assets/stock-video.mp4';
 
 export default function HomeSectionA() {
 
@@ -15,7 +16,7 @@ export default function HomeSectionA() {
           className="absolute inset-0 w-full h-full object-cover filter blur-video"
           data-aos="fade-up" data-aos-duration="1000"
         >
-          <source src="https://www.shutterstock.com/shutterstock/videos/1107342867/preview/stock-footage-create-discussions-among-participants-to-support-exchange-of-views-european-education-combines.webm" type="video/mp4" />
+          <source src={stockFootage} type="video/mp4" />
         </video>
         <div className=" max-w-6xl ps-6 lg:px-8" data-aos="fade-up" data-aos-duration="2000">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-20">
