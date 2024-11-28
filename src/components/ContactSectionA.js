@@ -4,6 +4,7 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
+import icon from '../assets/pad-pro-icon.png';
 
 export default function ContactSectionA() {
   return (
@@ -70,7 +71,12 @@ export default function ContactSectionA() {
               {/* Hours of Operation & Contact Info */}
               <div>
                 <div>
-                  <Typography variant="h5" color="green-500" className="mb-4">
+                  <img
+                    className=" object-cover object-center"
+                    src={icon}
+                    alt="Piedmont Adult Day Program icon"
+                  />
+                  <Typography variant="h5" color="green-500" className="mb-5 mt-8">
                     Hours of Operation
                   </Typography>
                   <Typography color="gray" className="mb-2">
