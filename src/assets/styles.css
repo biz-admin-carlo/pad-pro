@@ -4,6 +4,10 @@
     color:#6ece1b;
 }
 
+.text-color {
+    color:#6ece1b;
+}
+
 ::selection {
     background-color: #a3d977; /* Light green background */
     color: #000; /* Black text */

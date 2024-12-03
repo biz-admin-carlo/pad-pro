@@ -71,8 +71,12 @@ export default function HomeSectionD() {
 
   return (
     <div data-aos="fade-up" data-aos-duration="3000" className="bg-white">
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 px-8 py-16">
-        <h2 className="text-base font-semibold leading-7 text-green-500">
+      <main className="mx-auto max-w-7xl px-4 sm:px-6 px-8 py-14">
+        <h2
+          className="text-6xl font-semibold newsreader text-green-500"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           Frequently Asked Questions
         </h2>
 

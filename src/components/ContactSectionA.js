@@ -12,7 +12,13 @@ export default function ContactSectionA() {
       <div className="overflow-hidden bg-white py-6 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="text-base font-semibold leading-7 text-green-500" data-aos="fade-right" data-aos-duration="2000">Contact</h2>
+            <h2
+              className="text-6xl font-semibold newsreader text-green-500"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              Contact
+            </h2>
             <hr />
 
             <div className="pt-12 grid grid-cols-1 gap-8 md:grid-cols-2">

@@ -16,6 +16,8 @@ import FacilitiesImageThirteen from '../assets/pad-pro-image-facilities-13.jpg';
 import FacilitiesImageFourteen from '../assets/pad-pro-image-facilities-14.jpg';
 import FacilitiesImageOneFive from '../assets/pad-pro-image-facilities-15.jpg';
 import FacilitiesImageOneSix from '../assets/pad-pro-image-facilities-16.jpg';
+import FacilitiesImg from '../assets/pad-pro-facilities-img.jpg';
+
 export default function FacilitiesSectionA() {
   const data = [
     {
@@ -93,12 +95,23 @@ export default function FacilitiesSectionA() {
   };
 
   return (
+    <div>
+      <img
+        className="h-96 w-full object-cover object-center"
+        src={FacilitiesImg}
+        alt="Pad Pro's Facility Image"
+      />
     <div className="px-12 md:px-12">
+
         <div className="py-10" data-aos="fade-up" data-aos-duration="1000">
-            <h2 className="text-base font-semibold leading-7 text-green-500">
-              Facilities
-            </h2>
-            <hr/>
+          <h2
+            className="text-6xl font-semibold newsreader text-green-500"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            Facilities
+          </h2>
+          <hr/>
         </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" data-aos="fade-up" data-aos-duration="2000">
         {data.map(({ imgelink, alt }, index) => (
@@ -141,5 +154,6 @@ export default function FacilitiesSectionA() {
         />
       )}
     </div>
+  </div>
   );
 }

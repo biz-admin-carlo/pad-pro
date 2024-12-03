@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ImageModal from "./ImageModal";
 import "../assets/styles.css";
-import AboutUsImageOne from '../assets/pad-pro-image-3.jpg'
-import AboutUsImageTwo from '../assets/pad-pro-image-4.jpg'
+import AboutUsImageOne from "../assets/pad-pro-image-3.jpg";
+import AboutUsImageTwo from "../assets/pad-pro-image-4.jpg";
+import AboutUsImage from "../assets/pad-pro-about-us-img.jpeg";
 
 export default function AboutUsSectionB() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -22,11 +23,22 @@ export default function AboutUsSectionB() {
 
   return (
     <div>
+      {/* Main Banner Image */}
+      <img
+        className="h-96 w-full object-cover object-center cursor-pointer"
+        src={AboutUsImage}
+        alt="About Us Banner"
+        onClick={() => openModalWithImage(AboutUsImage)}
+      />
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           {/* Text Section */}
           <div className="lg:max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="2000">
-            <h2 className="text-base font-semibold leading-7 text-green-500">
+            <h2
+              className="text-6xl font-semibold newsreader text-green-500"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               About Us
             </h2>
             <hr />
@@ -62,17 +74,17 @@ export default function AboutUsSectionB() {
               </dl>
 
               {/* First Image and Description */}
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
+              <div
+                className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="w-full md:w-1/2">
                   <img
-                    className="h-96 w-full object-cover object-center"
+                    className="h-96 w-full object-cover object-center cursor-pointer"
                     src={AboutUsImageOne}
                     alt="Self-Help Advocacy Image 1"
-                    onClick={() =>
-                      openModalWithImage(
-                        {AboutUsImageOne}
-                      )
-                    }
+                    onClick={() => openModalWithImage(AboutUsImageOne)}
                   />
                 </div>
                 <div className="w-full md:w-1/2">
@@ -89,7 +101,11 @@ export default function AboutUsSectionB() {
               <hr />
 
               {/* Second Image and Description */}
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24" data-aos="fade-up" data-aos-duration="2000">
+              <div
+                className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 py-24"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
                 <div className="w-full md:w-1/2">
                   <p className="text-gray-900">
                     On site activities are structured, and simulation of daily
@@ -105,14 +121,10 @@ export default function AboutUsSectionB() {
                 </div>
                 <div className="w-full md:w-1/2">
                   <img
-                    className="h-96 w-full object-cover object-center"
+                    className="h-96 w-full object-cover object-center cursor-pointer"
                     src={AboutUsImageTwo}
                     alt="Self-Help Advocacy Image 2"
-                    onClick={() =>
-                      openModalWithImage(
-                        {AboutUsImageTwo}
-                      )
-                    }
+                    onClick={() => openModalWithImage(AboutUsImageTwo)}
                   />
                 </div>
               </div>

@@ -4,6 +4,7 @@ import "../assets/styles.css";
 import OurTeamImageOne from '../assets/pad-pro-image-2.jpg';
 import OurTeamImageTwo from '../assets/pad-pro-image-3.jpg';
 import OurTeamImageThree from '../assets/pad-pro-image-4.jpg';
+import OurTeamLanding from '../assets/pad-pro-our-team-img.png';
 
 export default function OurTeamSectionA() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,11 +17,16 @@ export default function OurTeamSectionA() {
 
   return (
     <div>
+      <img
+        className="h-96 w-full object-cover object-center"
+        src={OurTeamLanding}
+        alt="Pad Pro's Team Members"
+      />
       <div className="overflow-hidden bg-white py-12 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="lg:max-w-2xl mx-auto">
             <h2
-              className="text-base font-semibold leading-7 text-green-500"
+              className="text-6xl font-semibold newsreader text-green-500"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
@@ -35,7 +41,7 @@ export default function OurTeamSectionA() {
                 data-aos-duration="2000"
               >
                 <img
-                  className="w-full rounded-xl sm:h-96 sm:object-cover sm:object-center"
+                  className="w-full sm:h-96 sm:object-cover sm:object-center"
                   src={OurTeamImageOne}
                   alt="Piedmont Adult Day Program Staff"
                   onClick={() => openModalWithImage(OurTeamImageOne)}
