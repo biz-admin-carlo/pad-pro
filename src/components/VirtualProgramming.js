@@ -10,8 +10,8 @@ import {
 export default function VirtualProgramming() {
   return (
     <div>
-      <div className={`overflow-hidden bg-white py-12 sm:py-36`}>
-        <div className='text-start py-6 mx-10' data-aos="fade-up" data-aos-duration="2000">
+      <div className={`overflow-hidden bg-white py-6 sm:py-36`}>
+        <div className='text-start py-2 mx-10' data-aos="fade-up" data-aos-duration="2000">
             <h1 className='newsreader font-large pb-2' data-aos="fade-up" data-aos-duration="2000">Virtual Programming</h1>
             <hr/>
             <p className='py-6' data-aos="fade-up" data-aos-duration="2000">Piedmont Adult Day Program's Virtual Programming started last 15 April 2022. This program aims to bridge the other online learning modality so that it can reach broader students and better the learning experience of everyone.</p>

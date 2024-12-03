@@ -16,7 +16,7 @@ import FacilitiesImageThirteen from '../assets/pad-pro-image-facilities-13.jpg';
 import FacilitiesImageFourteen from '../assets/pad-pro-image-facilities-14.jpg';
 import FacilitiesImageOneFive from '../assets/pad-pro-image-facilities-15.jpg';
 import FacilitiesImageOneSix from '../assets/pad-pro-image-facilities-16.jpg';
-import FacilitiesImg from '../assets/pad-pro-facilities-img.jpg';
+import FacilitiesImg from '../assets/pad-pro-facilities-img-one.jpg';
 
 export default function FacilitiesSectionA() {
   const data = [

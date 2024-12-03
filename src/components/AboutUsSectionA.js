@@ -3,7 +3,7 @@ import ImageModal from "./ImageModal";
 import "../assets/styles.css";
 import AboutUsImageOne from "../assets/pad-pro-image-3.jpg";
 import AboutUsImageTwo from "../assets/pad-pro-image-4.jpg";
-import AboutUsImage from "../assets/pad-pro-about-us-img.jpeg";
+import AboutUsImage from "../assets/pad-pro-facilities-img.jpg";
 
 export default function AboutUsSectionB() {
   const [isModalOpen, setModalOpen] = useState(false);
